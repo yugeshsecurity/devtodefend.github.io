@@ -1,0 +1,33 @@
+baseURL = "https://example.com/"
+title = "DevToDefend"
+theme = "PaperMod"
+languageCode = "en-us"
+
+[params]
+  # Add your custom params here
+  homeInfoParams = { Title = "DevToDefend", Content = "Building and Securing Apps: Java • Angular • AppSec • DevSecOps" }
+  ShowReadingTime = true
+  ShowShareButtons = true
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = true
+  ShowCodeCopyButtons = true
+  defaultTheme = "auto" # auto, dark, light
+
+[menu]
+  [[menu.main]]
+    identifier = "about"
+    name = "About"
+    url = "/about/"
+    weight = 1
+
+  [[menu.main]]
+    identifier = "blog"
+    name = "Blog"
+    url = "/posts/"
+    weight = 2
+
+  [[menu.main]]
+    identifier = "cheatsheets"
+    name = "Cheat Sheets"
+    url = "/cheatsheets/"
+    weight = 3
